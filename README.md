@@ -18,8 +18,10 @@ Implement a notepad on cloud app by Firebase (Android app)
 並新增二位使用者即可
 
 account/password：
+
 1. user1@example.com/abc123
 2. test1@example.com/xyz123
+
 --------------------------------------------
 
 > website解說: 
