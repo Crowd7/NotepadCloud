@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pingtung.ccstudio.notepadcloud">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".NoteActivity">
+            <intent-filter>
+                <!-- 新增用的名稱 -->
+                <action android:name="com.pingtung.ccstudio.notepadcloud.ADD_NOTE" />
+                <!-- 修改用的名稱 -->
+                <action android:name="com.pingtung.ccstudio.notepadcloud.EDIT_NOTE" />
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

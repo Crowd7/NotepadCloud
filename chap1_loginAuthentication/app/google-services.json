@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868661679865",
+    "firebase_url": "https://notepadcloud-be816.firebaseio.com",
+    "project_id": "notepadcloud-be816",
+    "storage_bucket": "notepadcloud-be816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868661679865:android:f0759715abc6cb7b",
+        "android_client_info": {
+          "package_name": "com.pingtung.ccstudio.notepadcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868661679865-6k6i96b51nairagt0joth7qen1l33mqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pingtung.ccstudio.notepadcloud",
+            "certificate_hash": "24E8D06A56613D1F5B26D74A16B7793104690F86"
+          }
+        },
+        {
+          "client_id": "868661679865-8gevnu9h6k6t62v58l0nkhd285alvjm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiMrRG5vcu0HoeisKaaIBj0Jt2-Fj34-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868661679865-8gevnu9h6k6t62v58l0nkhd285alvjm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

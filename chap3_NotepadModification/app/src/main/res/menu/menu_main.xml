@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="add"
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_input_add"
+        apps:showAsAction="always"></item>
+
+    <item android:title="logout"
+        android:id="@+id/logout"
+        apps:showAsAction="never"></item>
+</menu>
